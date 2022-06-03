@@ -1,6 +1,6 @@
 # E-mail-Spam-Classifier
 
-# **SVM with Gaussian Kernel**
+# SVM with Gaussian Kernel
 
 This project uses support vector machines (SVMs) with a Gaussian kernel to build a spam classifer. 
 
@@ -11,7 +11,7 @@ To find non-linear decision boundaries in SVMs, we need to use a Gaussian kernel
 ex6data3.mat gives us the variables X, y, Xval, yval. We use these datasets to train the SVM classifier using parameters loaded from the dataset. Using the cross validation datasets, Xval and Yval, we determine the best bandwidth parameter, sigma, and the best regulaziation parameter, C to use. 
 
 
-# ** Spam classification**
+#  Spam classification
 
 Preprocessing - in processEmail.m, we implement the following preprocessing steps,
 • Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate).
