@@ -2,7 +2,7 @@
 
 # SVM with Gaussian Kernel
 
-This project uses support vector machines (SVMs) with a Gaussian kernel to build a spam classifer. 
+This project uses support vector machines (SVMs) with a Gaussian kernel to build a spam classifier. 
 
 ex6.m is the main file that contains the code to call the gaussian kernel function. 
 
