@@ -40,9 +40,6 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 %% =============== Part 3: Implementing Gaussian Kernel ===============
-%  You will now implement the Gaussian kernel to use
-%  with the SVM. You should complete the code in gaussianKernel.m
-%
 fprintf('\nEvaluating the Gaussian Kernel ...\n')
 
 x1 = [1 2 1]; x2 = [0 4 -1]; sigma = 2;
@@ -55,7 +52,7 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 %% =============== Part 4: Visualizing Dataset 2 ================
-%  The following code will load the next dataset into your environment and 
+%  The following code will load the next dataset into the environment and 
 %  plot the data. 
 %
 
@@ -72,14 +69,11 @@ fprintf('Program paused. Press enter to continue.\n');
 pause;
 
 %% ========== Part 5: Training SVM with RBF Kernel (Dataset 2) ==========
-%  After you have implemented the kernel, we can now use it to train the 
-%  SVM classifier.
-% 
+
 fprintf('\nTraining SVM with RBF Kernel (this may take 1 to 2 minutes) ...\n');
 
 % Load from ex6data2: 
-% You will have X, y in your environment
-load('ex6data2.mat');
+
 
 % SVM Parameters
 C = 1; sigma = 0.1;
@@ -117,8 +111,7 @@ pause;
 % 
 
 % Load from ex6data3: 
-% You will have X, y in your environment
-load('ex6data3.mat');
+
 
 % Try different SVM Parameters here
 [C, sigma] = dataset3Params(X, y, Xval, yval);
