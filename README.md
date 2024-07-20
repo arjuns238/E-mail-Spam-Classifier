@@ -14,14 +14,14 @@ ex6data3.mat gives us the variables X, y, Xval, yval. We use these datasets to t
 #  Spam classification
 
 Preprocessing - in processEmail.m, we implement the following preprocessing steps,
-• Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate).
-• Stripping HTML: All HTML tags are removed from the emails. Many emails often come with HTML formatting; we remove all the HTML tags, so that only the content remains.
-• Normalizing URLs: All URLs are replaced with the text \httpaddr".
-• Normalizing Email Addresses: All email addresses are replaced with the text \emailaddr".
-• Normalizing Numbers: All numbers are replaced with the text "number".
-• Normalizing Dollars: All dollar signs ($) are replaced with the text "dollar".
-• Word Stemming: Words are reduced to their stemmed form. For example, "discount", "discounts", "discounted" and "discounting" are all replaced with "discount". Sometimes, the Stemmer actually strips off additional characters from the end, so "include", "includes", "included", and "including" are all replaced with "includ".
-• Removal of non-words: Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character.
+<li> Lower-casing: The entire email is converted into lower case, so that captialization is ignored (e.g., IndIcaTE is treated the same as Indicate). </li>
+<li>Stripping HTML: All HTML tags are removed from the emails. Many emails often come with HTML formatting; we remove all the HTML tags, so that only the content remains. </li>
+<li> Normalizing URLs: All URLs are replaced with the text \httpaddr". </li>
+<li> Normalizing Email Addresses: All email addresses are replaced with the text \emailaddr". </li>
+<li> Normalizing Numbers: All numbers are replaced with the text "number". </li>
+<li> Normalizing Dollars: All dollar signs ($) are replaced with the text "dollar". </li>
+<li> Word Stemming: Words are reduced to their stemmed form. For example, "discount", "discounts", "discounted" and "discounting" are all replaced with "discount". Sometimes, the Stemmer actually strips off additional characters from the end, so "include", "includes", "included", and "including" are all replaced with "includ". </li>
+<li> Removal of non-words: Non-words and punctuation have been removed. All white spaces (tabs, newlines, spaces) have all been trimmed to a single space character. </li>
 
 Vocab.txt contains the vocabulary text file which we map to the preprocessed words.
 
